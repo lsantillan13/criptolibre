@@ -85,3 +85,52 @@ src/
     utils/
   App.js
   index.js
+
+##Tecnologías Utilizadas
+Frontend: React.js, Vite.
+Backend: Node.js, Express.js.
+Base de Datos: MongoDB.
+Autenticación: JWT (JSON Web Tokens).
+Pasarela de Pago: Coinbase Commerce, BitPay, CoinGate.
+Estilos: CSS, SASS, TailwindCSS.
+
+##Instalación y Configuración
+###Prerrequisitos
+Node.js (v14 o superior)
+pnpm (v6 o superior)
+MongoDB
+Inicialización del Proyecto
+Clona el repositorio:
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+
+##Instala las dependencias usando pnpm:
+pnpm install
+
+##Configura las variables de entorno:
+Crea un archivo .env en la raíz del proyecto y añade las siguientes variables:
+VITE_MONGO_URI=tu_mongo_uri
+VITE_JWT_SECRET=tu_jwt_secret
+VITE_COINBASE_API_KEY=tu_coinbase_api_key
+
+##Ejecución en Desarrollo
+pnpm run dev
+
+##Construcción para Producción
+pnpm run build
+pnpm start
+
+##Contribución
+Haz un fork del proyecto.
+Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
+Realiza tus cambios y haz commit (git commit -am 'Añadir nueva funcionalidad').
+Sube tus cambios (git push origin feature/nueva-funcionalidad).
+Abre un Pull Request.
+Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+##Contacto
+Nombre: Tu Nombre
+Email: tu.email@example.com
+GitHub: tu-usuario
+¡Gracias por contribuir y ser parte de este proyecto!
